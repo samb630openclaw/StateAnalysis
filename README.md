@@ -36,20 +36,28 @@ This project analyzes the relationship between county-level demographic characte
 
 **Key Findings:**
 - **Strongest Correlations with Highway Count:**
-  - Registered Republicans: r = +0.729 (strong positive)
-  - Registered Total: r = +0.727 (strong positive)
-  - Registered Democrats: r = +0.719 (strong positive)
-  - HS Graduation Rate: r = +0.416 (moderate positive)
+  - **Percentage of Registered Republicans**: r = -0.413 (moderate negative)
+    - Counties with higher Republican percentages have FEWER highways
+  - **Percentage of Registered NPA (No Party Affiliation)**: r = +0.419 (moderate positive)
+    - Counties with more independent voters have MORE highways
+  - **HS Graduation Rate**: r = +0.416 (moderate positive)
+  - **Percentage Asian**: r = +0.382 (moderate positive)
 
 - **Significant Demographic Differences:**
   - High-highway counties have significantly higher education levels
-  - High-highway counties have more registered voters (both parties)
+  - High-highway counties have more Asian residents
   - High-highway counties are wealthier with lower poverty rates
-  - High-highway counties have fewer Hispanic residents
 
-- **Regression Model (R² = 0.539):**
-  - Strongest predictor: Number of registered Republicans
-  - Model explains 53.9% of variance in highway counts
+- **Multiple Regression Model (R² = 0.229):**
+  - **Percentage Republican**: Coefficient = -0.296 (p = 0.004)
+    - Each additional percentage point of Republicans associated with 0.30 FEWER highways
+  - **Percentage with Bachelor's degree**: Coefficient = 0.478 (p = 0.046)
+    - Each additional percentage point with Bachelor's degree associated with 0.48 MORE highways
+
+- **Key Insight**: The relationship between politics and highways depends on whether you look at **absolute counts** or **percentages**:
+  - Absolute counts: More Republicans = More highways (positive correlation)
+  - Percentages: Higher Republican percentage = Fewer highways (negative correlation)
+  - This suggests **political diversity** (not just Republican dominance) is associated with more highways
 
 - **Top Counties by Highway Count:**
   1. Miami-Dade: 53 highways

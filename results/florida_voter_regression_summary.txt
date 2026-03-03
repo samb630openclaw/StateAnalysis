@@ -1,0 +1,29 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:          highway_count   R-squared:                       0.229
+Model:                            OLS   Adj. R-squared:                  0.190
+Method:                 Least Squares   F-statistic:                     5.930
+Date:                Tue, 03 Mar 2026   Prob (F-statistic):            0.00130
+Time:                        14:03:56   Log-Likelihood:                -226.17
+No. Observations:                  64   AIC:                             460.3
+Df Residuals:                      60   BIC:                             469.0
+Df Model:                           3                                         
+Covariance Type:            nonrobust                                         
+=============================================================================================
+                                coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------
+const                       -19.0457     22.319     -0.853      0.397     -63.690      25.598
+pct_registered_republican    -0.2963      0.099     -3.001      0.004      -0.494      -0.099
+pct_hispanic                  0.6096      1.694      0.360      0.720      -2.780       3.999
+bachelors_or_higher           0.4776      0.234      2.040      0.046       0.009       0.946
+==============================================================================
+Omnibus:                       40.092   Durbin-Watson:                   1.922
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              128.146
+Skew:                           1.852   Prob(JB):                     1.49e-28
+Kurtosis:                       8.860   Cond. No.                     2.10e+03
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 2.1e+03. This might indicate that there are
+strong multicollinearity or other numerical problems.

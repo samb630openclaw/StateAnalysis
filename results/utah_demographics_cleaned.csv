@@ -1,0 +1,30 @@
+GEOID,County,Median_Age,Median_Household_Income,Median_Home_Value,Pct_White_Alone,Pct_Black_Alone,Pct_Asian_Alone,Pct_AIAN_Alone,Pct_NHPI_Alone,Pct_SomeOther_Alone,Pct_TwoOrMore,Pct_Hispanic,HS_Grad_or_Higher,Bachelors_or_Higher,Unemployment_Rate,Pct_Below_Poverty_Level,county_clean
+49001,"Beaver County, Utah",34.4,85603,287600,13.5,0.5,0.8,0.0,85.3,84.1,0.2,0.3,22.7,93.4,2.4,7.5,Beaver County
+49003,"Box Elder County, Utah",32.9,77865,357400,7.7,0.3,2.0,0.0,90.1,86.2,0.3,1.4,26.7,92.6,3.2,8.6,Box Elder County
+49005,"Cache County, Utah",25.9,78292,392800,8.4,0.6,2.6,0.1,88.5,81.9,0.7,2.1,40.4,94.0,2.4,13.1,Cache County
+49007,"Carbon County, Utah",38.8,53673,200700,10.8,0.0,2.2,0.2,86.8,82.3,0.5,2.9,18.4,91.8,5.5,16.8,Carbon County
+49009,"Daggett County, Utah",45.0,58750,242100,1.9,1.1,0.0,0.0,97.1,92.2,0.0,4.7,11.6,91.4,8.6,10.1,Daggett County
+49011,"Davis County, Utah",32.3,108058,470500,7.4,0.4,3.5,0.1,88.7,80.6,1.1,1.3,38.7,96.0,2.5,6.0,Davis County
+49013,"Duchesne County, Utah",33.8,74738,253600,4.5,0.1,2.4,0.1,92.9,85.3,0.1,5.6,17.0,90.6,3.9,13.3,Duchesne County
+49015,"Emery County, Utah",39.1,69956,197100,6.6,0.0,0.7,0.0,92.7,89.5,0.0,2.5,17.2,93.2,3.6,11.3,Emery County
+49017,"Garfield County, Utah",41.0,61688,285800,3.1,1.6,0.9,1.4,93.0,89.3,0.1,2.5,32.0,95.1,5.1,11.1,Garfield County
+49019,"Grand County, Utah",39.6,62521,480900,10.2,0.9,1.4,0.0,87.5,78.7,0.0,4.6,34.7,94.3,2.9,17.0,Grand County
+49021,"Iron County, Utah",29.9,65527,342900,8.3,0.3,1.4,0.1,89.9,83.8,0.6,2.8,30.3,93.2,3.4,13.6,Iron County
+49023,"Juab County, Utah",30.5,89803,369800,1.6,0.0,3.6,0.0,94.8,91.0,0.7,1.7,20.2,92.5,2.3,9.0,Juab County
+49025,"Kane County, Utah",43.7,75000,350900,3.4,0.2,1.3,0.0,95.2,88.7,0.2,2.7,32.1,94.7,4.6,10.4,Kane County
+49027,"Millard County, Utah",33.4,70877,246400,11.8,0.1,1.4,0.0,86.7,82.0,0.2,1.7,23.1,91.3,6.7,8.8,Millard County
+49029,"Morgan County, Utah",32.5,126092,600900,2.1,0.1,0.6,0.1,97.1,92.7,0.2,0.7,38.8,97.6,2.2,1.7,Morgan County
+49031,"Piute County, Utah",47.1,44650,235400,1.2,0.1,3.1,0.0,95.6,95.5,0.1,0.0,19.0,85.6,7.0,11.1,Piute County
+49033,"Rich County, Utah",37.2,76875,291200,6.0,0.2,0.7,0.0,93.0,89.5,0.0,3.5,24.5,95.5,2.7,9.5,Rich County
+49035,"Salt Lake County, Utah",33.8,94658,484500,13.9,0.5,5.5,0.2,80.0,67.9,1.7,2.3,38.6,91.7,3.7,8.4,Salt Lake County
+49037,"San Juan County, Utah",34.6,54890,189900,2.6,0.1,2.9,0.0,94.4,44.9,0.1,48.7,20.2,87.7,12.1,18.4,San Juan County
+49039,"Sanpete County, Utah",33.8,67459,300400,7.7,0.5,2.2,0.1,89.5,84.5,0.9,1.9,23.2,90.7,5.0,15.3,Sanpete County
+49041,"Sevier County, Utah",36.7,73765,274100,3.5,0.1,1.6,0.0,94.8,91.3,0.2,1.7,23.1,92.7,3.4,10.5,Sevier County
+49043,"Summit County, Utah",41.0,137058,1000400,8.0,0.1,3.0,0.1,88.9,83.2,0.4,1.4,58.1,95.0,2.1,4.5,Summit County
+49045,"Tooele County, Utah",32.0,101846,391300,11.5,0.2,2.5,0.0,85.8,79.2,0.8,2.1,23.2,92.7,3.6,4.7,Tooele County
+49047,"Uintah County, Utah",33.0,69861,270200,6.5,0.1,1.7,0.1,91.6,80.4,0.5,8.2,16.8,89.3,5.8,11.1,Uintah County
+49049,"Utah County, Utah",25.5,96877,489200,8.2,0.4,5.2,0.1,86.1,78.9,0.6,1.6,43.8,95.4,3.5,8.7,Utah County
+49051,"Wasatch County, Utah",36.1,115146,724400,10.9,0.8,2.6,0.1,85.6,81.5,0.1,1.3,47.7,95.6,2.4,5.1,Wasatch County
+49053,"Washington County, Utah",39.0,76411,465600,7.7,0.6,3.3,0.1,88.3,81.8,0.5,2.2,33.3,94.3,3.3,9.9,Washington County
+49055,"Wayne County, Utah",43.1,70074,364800,2.1,0.2,1.5,0.0,96.2,91.0,0.0,1.8,25.2,95.7,0.8,9.1,Wayne County
+49057,"Weber County, Utah",33.5,87083,389200,15.0,0.5,3.4,0.0,81.1,74.6,1.1,1.9,28.0,92.3,3.0,7.5,Weber County

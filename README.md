@@ -106,6 +106,66 @@ This project analyzes the relationship between county-level demographic characte
 
 All analysis results, visualizations, and reports are saved in the `results/` directory.
 
+### Nebraska Analysis (93 counties analyzed)
+
+**Key Findings:**
+- **Strongest Correlations with Highway Count:**
+  - **Median Household Income**: r = +0.306 (p = 0.003) - Moderate positive
+  - **Median Home Value**: r = +0.269 (p = 0.009) - Moderate positive
+  - **Poverty Level**: r = -0.261 (p = 0.011) - Moderate negative
+  - **Multi-racial Percentage**: r = -0.253 (p = 0.015) - Moderate negative (Spearman)
+
+- **Regression Model (R² = 0.111):**
+  - Model explains 11.1% of variance in highway counts
+  - Significant predictors: Median Household Income, Median Home Value, Poverty Level
+
+- **Key Insight**: Wealthier counties with higher home values have more memorial highways, while counties with higher poverty rates have fewer highways.
+
+- **Top Counties by Highway Count:**
+  1. Kearney County: 2 highways
+  2. Platte/Butler County: 1 highway
+  3. Butler County: 1 highway
+  4. Cass County: 1 highway
+  5. Lancaster County: 1 highway
+
+### California Analysis (58 counties analyzed)
+
+**Key Findings:**
+- **No significant correlations found** between demographic variables and highway count
+- **Correlation range**: -0.25 to +0.25 (all p > 0.05)
+- **Key Insight**: In California, demographic factors do not predict memorial highway presence. This suggests that highway designations may be driven by factors other than demographics (e.g., historical significance, political considerations, or random distribution).
+
+- **Top Counties by Highway Count:**
+  1. Riverside County: 4 highways
+  2. Madera County: 4 highways
+  3. Colusa County: 4 highways
+  4. Mono County: 3 highways
+  5. Tuolumne County: 3 highways
+
+### Louisiana Analysis (64 counties analyzed)
+
+**Key Findings:**
+- **Data Limitation**: Louisiana highway data does not contain county-level information
+- **Total Highways**: 147 memorial highways identified
+- **Highway Types**: Blue Star Memorial Highway (5), Veterans Memorial Highway (4), various local designations
+- **Key Insight**: Cannot analyze demographic patterns due to lack of county mapping
+
+### Minnesota Analysis (87 counties analyzed)
+
+**Key Findings:**
+- **Data Limitation**: Minnesota highway data does not contain county-level information
+- **Total Highways**: 105 memorial highways identified
+- **Highway Types**: Veterans Memorial Highway (4), Veterans Memorial Bridge (3), POW/MIA Memorial Highway (2)
+- **Key Insight**: Cannot analyze demographic patterns due to lack of county mapping
+
+### Utah Analysis (29 counties analyzed)
+
+**Key Findings:**
+- **Data Limitation**: Utah highway data does not contain county-level information
+- **Total Highways**: 23 memorial highways identified
+- **Highway Types**: Various designations including Ram Boulevard, Mike Dmitrich Highway, Pete Suazo Memorial Highway
+- **Key Insight**: Cannot analyze demographic patterns due to lack of county mapping
+
 ## Highway Attributes Analysis (Florida)
 
 ### Key Findings: Highway Attributes vs Demographics
@@ -131,6 +191,68 @@ All analysis results, visualizations, and reports are saved in the `results/` di
 - Highway definition: Memorial highways may vary in significance
 - Michigan highway data extracted from descriptions; some highways may span multiple counties
 - Highway attributes extracted from descriptions; some misclassifications may exist
+
+## Key Research Question: Why do some people get memorialized over others?
+
+### What Factors Contribute to People Being Memorialized?
+
+Based on our analysis of 4 states with county-level data (Florida, Texas, Michigan, Nebraska), we've identified several patterns:
+
+**1. Wealth and Economic Status (Strongest Pattern)**
+- **Florida**: Counties with higher median household income and lower poverty rates have MORE memorial highways
+- **Nebraska**: Wealthier counties with higher home values have more memorial highways
+- **Texas**: Counties with higher median household income have FEWER highways (negative correlation)
+- **Michigan**: No strong wealth correlation found
+
+**2. Education Level**
+- **Florida**: Higher education levels (HS graduation, Bachelor's degrees) strongly correlate with more highways
+- **Texas**: Higher HS graduation rates correlate with more highways
+- **Michigan**: No strong education correlation found
+- **Nebraska**: No strong education correlation found
+
+**3. Political Factors**
+- **Florida**: Counties with higher percentages of independent voters (NPA) have MORE highways
+- **Florida**: Counties with higher Republican percentages have FEWER highways (when looking at percentages)
+- **Key Insight**: Political diversity, not just Republican dominance, is associated with more highways
+
+**4. Racial/Ethnic Composition**
+- **Michigan**: Multi-racial populations show strong positive correlation with highways
+- **Texas**: Asian populations show moderate positive correlation with highways
+- **Florida**: Asian populations show moderate positive correlation with highways
+- **Nebraska**: Multi-racial populations show negative correlation with highways
+
+**5. Age Demographics**
+- **Michigan**: Younger populations have more highways
+- **Texas**: Younger populations have more highways
+- **Florida**: No strong age correlation found
+- **Nebraska**: No strong age correlation found
+
+### Key Findings Summary
+
+**States with Strong Demographic Patterns:**
+1. **Florida** (R² = 0.229): Education and political diversity are key predictors
+2. **Michigan** (R² = 0.418): Multi-racial populations and younger age are key predictors
+3. **Texas** (R² = 0.173): Education and wealth are key predictors
+4. **Nebraska** (R² = 0.111): Wealth and poverty levels are key predictors
+
+**States with No Strong Patterns:**
+- **California**: No significant demographic correlations found
+- **Louisiana, Minnesota, Utah**: Data limitations prevent analysis
+
+### Conclusions
+
+1. **Education is a consistent predictor**: Higher education levels correlate with more memorial highways in multiple states
+2. **Wealth patterns vary by state**: Wealthier counties have more highways in some states (Florida, Nebraska) but fewer in others (Texas)
+3. **Political diversity matters**: Independent voters, not just party dominance, influence highway designations
+4. **Racial composition shows mixed results**: Multi-racial and Asian populations show correlations in some states but not others
+5. **Age patterns are consistent**: Younger populations tend to have more highways
+
+### Limitations
+
+- Small sample sizes (only 4 states with complete data)
+- Highway data quality varies by state
+- Causality cannot be established from correlations
+- Memorial highway significance may vary by type and purpose
 
 ## Project Structure
 

@@ -1,0 +1,29 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:          highway_count   R-squared:                       0.111
+Model:                            OLS   Adj. R-squared:                  0.082
+Method:                 Least Squares   F-statistic:                     3.722
+Date:                Tue, 03 Mar 2026   Prob (F-statistic):             0.0143
+Time:                        16:02:00   Log-Likelihood:                -19.455
+No. Observations:                  93   AIC:                             46.91
+Df Residuals:                      89   BIC:                             57.04
+Df Model:                           3                                         
+Covariance Type:            nonrobust                                         
+===========================================================================================
+                              coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------
+const                      -0.1759      0.372     -0.472      0.638      -0.916       0.564
+Median_Household_Income  4.979e-06   5.64e-06      0.882      0.380   -6.23e-06    1.62e-05
+Median_Home_Value        6.642e-07   1.06e-06      0.625      0.534   -1.45e-06    2.78e-06
+Pct_Below_Poverty_Level    -0.0174      0.014     -1.243      0.217      -0.045       0.010
+==============================================================================
+Omnibus:                       92.880   Durbin-Watson:                   1.986
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              864.316
+Skew:                           3.316   Prob(JB):                    2.07e-188
+Kurtosis:                      16.382   Cond. No.                     2.04e+06
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 2.04e+06. This might indicate that there are
+strong multicollinearity or other numerical problems.

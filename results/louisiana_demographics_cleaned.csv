@@ -1,0 +1,65 @@
+GEOID,County,Median_Age,Median_Household_Income,Median_Home_Value,Pct_White_Alone,Pct_Black_Alone,Pct_Asian_Alone,Pct_AIAN_Alone,Pct_NHPI_Alone,Pct_SomeOther_Alone,Pct_TwoOrMore,Pct_Hispanic,HS_Grad_or_Higher,Bachelors_or_Higher,Unemployment_Rate,Pct_Below_Poverty_Level,county_clean
+22001,"Acadia Parish, Louisiana",37.0,45266,146900,2.1,0.0,1.1,0.0,96.9,76.8,15.7,1.9,13.4,80.7,7.8,24.4,Acadia Parish
+22003,"Allen Parish, Louisiana",38.9,51138,110800,2.6,0.0,5.4,0.0,92.0,64.6,19.0,3.8,11.6,79.3,13.7,20.4,Allen Parish
+22005,"Ascension Parish, Louisiana",36.4,92266,265300,3.3,0.2,4.3,0.3,91.9,64.3,22.7,1.4,28.5,88.7,4.5,10.3,Ascension Parish
+22007,"Assumption Parish, Louisiana",42.0,52546,141200,1.7,0.0,2.4,0.0,95.8,64.3,28.6,1.1,13.7,78.2,4.9,13.9,Assumption Parish
+22009,"Avoyelles Parish, Louisiana",38.2,39439,120200,2.4,0.1,1.3,0.0,96.2,63.0,26.5,4.2,10.9,77.0,6.8,27.4,Avoyelles Parish
+22011,"Beauregard Parish, Louisiana",36.9,64995,164500,2.3,0.7,0.7,0.1,96.2,79.1,10.6,1.8,17.8,87.2,7.5,14.1,Beauregard Parish
+22013,"Bienville Parish, Louisiana",42.5,34992,93600,1.5,0.0,0.3,0.2,98.0,53.4,41.4,1.5,13.5,86.0,6.3,32.1,Bienville Parish
+22015,"Bossier Parish, Louisiana",36.2,66336,215100,5.0,0.3,2.6,0.1,92.0,62.5,23.6,1.4,27.3,90.7,5.6,16.4,Bossier Parish
+22017,"Caddo Parish, Louisiana",39.2,50067,175900,2.3,0.3,1.0,0.0,96.3,42.7,49.0,1.1,25.3,87.5,8.4,22.3,Caddo Parish
+22019,"Calcasieu Parish, Louisiana",37.2,67849,208500,2.3,0.3,2.2,0.3,94.8,65.3,23.7,1.5,24.7,89.4,5.5,17.8,Calcasieu Parish
+22021,"Caldwell Parish, Louisiana",40.7,44957,106000,2.2,0.0,0.4,0.0,97.4,77.4,18.2,0.1,10.7,82.8,9.9,25.4,Caldwell Parish
+22023,"Cameron Parish, Louisiana",43.0,72500,183300,0.0,0.0,0.2,0.0,99.8,85.7,1.2,10.5,15.0,88.1,0.9,6.3,Cameron Parish
+22025,"Catahoula Parish, Louisiana",38.8,47753,88000,0.3,0.2,0.3,0.4,98.9,62.9,34.6,0.4,16.6,74.2,6.3,28.1,Catahoula Parish
+22027,"Claiborne Parish, Louisiana",41.9,31784,82400,2.6,0.1,0.7,0.0,96.6,44.7,48.5,0.4,11.0,79.4,4.9,35.0,Claiborne Parish
+22029,"Concordia Parish, Louisiana",37.7,37349,102400,0.9,0.1,1.1,0.4,97.5,56.3,38.8,1.0,17.4,83.6,11.7,34.8,Concordia Parish
+22031,"De Soto Parish, Louisiana",40.1,46077,150700,1.3,0.3,1.5,0.0,96.9,59.2,34.7,2.0,14.9,85.0,6.1,21.8,De Soto Parish
+22033,"East Baton Rouge Parish, Louisiana",34.2,63075,241800,1.4,0.4,4.5,0.2,93.4,42.0,44.1,1.1,38.2,90.8,7.6,18.6,East Baton Rouge Parish
+22035,"East Carroll Parish, Louisiana",35.7,28321,87400,0.4,0.0,1.6,0.0,98.0,29.0,64.1,1.4,11.0,69.1,12.6,35.7,East Carroll Parish
+22037,"East Feliciana Parish, Louisiana",44.6,72899,213700,0.3,0.0,1.6,0.0,98.0,54.2,39.9,2.8,17.0,84.7,6.0,13.5,East Feliciana Parish
+22039,"Evangeline Parish, Louisiana",37.7,42273,118500,1.2,0.0,2.9,0.3,95.6,64.5,25.7,1.3,12.6,79.1,10.9,23.0,Evangeline Parish
+22041,"Franklin Parish, Louisiana",39.1,44103,117200,0.4,0.6,0.7,0.0,98.4,65.4,28.7,3.8,16.2,78.5,9.8,25.6,Franklin Parish
+22043,"Grant Parish, Louisiana",38.5,61112,135900,1.8,0.4,3.8,0.0,94.0,74.3,14.5,1.9,12.8,81.5,4.5,16.1,Grant Parish
+22045,"Iberia Parish, Louisiana",37.8,57811,156000,2.0,0.6,2.9,0.1,94.5,56.7,30.5,2.1,14.7,83.2,6.1,22.6,Iberia Parish
+22047,"Iberville Parish, Louisiana",40.3,57459,177100,1.2,0.7,2.5,0.4,95.2,46.2,45.2,2.0,16.6,81.0,6.1,15.5,Iberville Parish
+22049,"Jackson Parish, Louisiana",41.5,43345,107400,1.5,0.6,1.1,0.0,96.7,66.3,25.5,3.4,13.4,85.7,5.8,24.3,Jackson Parish
+22053,"Jefferson Davis Parish, Louisiana",37.4,56500,145000,1.2,0.0,1.2,0.0,97.6,77.0,14.7,1.2,15.0,82.7,4.7,17.8,Jefferson Davis Parish
+22051,"Jefferson Parish, Louisiana",39.9,65246,243500,2.5,0.9,13.7,1.1,81.8,48.1,25.6,2.2,29.9,86.6,5.9,16.3,Jefferson Parish
+22059,"LaSalle Parish, Louisiana",38.6,67077,137200,4.2,0.9,3.5,0.2,91.1,75.0,11.3,1.5,17.4,80.4,7.6,15.5,LaSalle Parish
+22055,"Lafayette Parish, Louisiana",36.4,67660,234200,2.0,0.3,3.8,0.4,93.5,62.5,25.3,0.8,34.9,89.9,5.0,17.4,Lafayette Parish
+22057,"Lafourche Parish, Louisiana",39.0,63439,190800,3.0,0.1,2.6,0.1,94.2,74.8,13.1,4.6,20.4,82.9,5.5,18.0,Lafourche Parish
+22061,"Lincoln Parish, Louisiana",28.6,38035,195500,2.7,0.1,0.8,0.1,96.4,52.5,36.9,3.1,36.0,89.4,4.1,30.7,Lincoln Parish
+22063,"Livingston Parish, Louisiana",36.4,78617,218900,1.9,0.2,4.0,0.1,93.8,81.9,8.2,1.2,20.3,87.6,4.1,13.1,Livingston Parish
+22065,"Madison Parish, Louisiana",34.6,37267,90600,0.4,0.0,1.5,0.5,97.6,33.4,62.6,0.8,12.8,76.1,5.1,36.7,Madison Parish
+22067,"Morehouse Parish, Louisiana",40.3,36981,108700,0.6,0.1,0.6,0.3,98.4,47.5,48.1,1.4,12.7,83.1,9.9,30.7,Morehouse Parish
+22069,"Natchitoches Parish, Louisiana",33.3,46798,163000,2.2,0.3,1.3,0.1,96.1,50.3,39.5,2.5,25.6,87.3,6.2,24.1,Natchitoches Parish
+22071,"Orleans Parish, Louisiana",38.4,55339,296400,1.5,0.4,5.3,0.8,92.1,30.1,54.7,1.6,42.0,89.1,7.8,22.6,Orleans Parish
+22073,"Ouachita Parish, Louisiana",36.6,51241,183000,2.0,0.2,1.4,0.0,96.4,55.6,37.0,1.0,27.5,88.0,6.6,24.0,Ouachita Parish
+22075,"Plaquemines Parish, Louisiana",36.8,82874,275800,4.0,1.9,3.3,0.3,90.5,60.2,20.9,3.0,19.8,85.6,4.5,13.4,Plaquemines Parish
+22077,"Pointe Coupee Parish, Louisiana",43.2,59351,174500,1.7,0.0,1.3,0.3,96.7,59.7,32.3,1.8,15.5,81.5,8.4,17.8,Pointe Coupee Parish
+22079,"Rapides Parish, Louisiana",37.8,55946,179100,2.4,0.3,1.2,0.2,96.0,59.7,31.0,1.9,22.4,87.4,4.9,18.9,Rapides Parish
+22081,"Red River Parish, Louisiana",40.4,44539,103200,1.5,0.0,0.2,0.0,98.2,55.6,40.2,0.7,11.2,81.2,3.2,29.4,Red River Parish
+22083,"Richland Parish, Louisiana",39.8,52960,124500,1.0,0.3,0.7,0.1,97.8,60.2,36.0,0.8,18.1,79.5,8.4,23.5,Richland Parish
+22085,"Sabine Parish, Louisiana",41.3,52047,129400,1.4,0.1,1.7,0.2,96.6,66.7,14.3,12.7,14.5,85.7,6.5,22.7,Sabine Parish
+22087,"St. Bernard Parish, Louisiana",35.8,57638,192100,1.4,0.4,11.1,0.6,86.4,56.7,23.5,2.4,17.2,81.3,7.4,22.6,St. Bernard Parish
+22089,"St. Charles Parish, Louisiana",39.1,82172,256800,2.1,0.2,5.3,0.4,92.0,62.8,22.8,2.7,27.2,89.1,6.3,9.8,St. Charles Parish
+22091,"St. Helena Parish, Louisiana",42.4,50193,106400,0.3,0.0,1.9,0.0,97.7,44.4,50.2,1.9,11.7,81.1,21.3,30.0,St. Helena Parish
+22093,"St. James Parish, Louisiana",40.8,64536,197800,1.0,0.0,0.4,0.5,98.1,49.1,48.4,0.5,20.2,88.6,5.4,10.5,St. James Parish
+22095,"St. John the Baptist Parish, Louisiana",38.5,67418,184000,1.1,1.2,5.2,0.9,91.7,30.3,55.9,0.9,18.7,86.7,9.0,12.6,St. John the Baptist Parish
+22097,"St. Landry Parish, Louisiana",37.5,45637,142900,1.1,0.0,1.7,0.0,97.2,53.1,39.9,1.1,14.3,80.6,5.6,24.0,St. Landry Parish
+22099,"St. Martin Parish, Louisiana",39.7,53394,151000,1.7,0.1,1.6,0.1,96.6,63.7,28.6,1.3,15.3,82.9,5.1,16.6,St. Martin Parish
+22101,"St. Mary Parish, Louisiana",39.7,51768,128000,4.3,0.3,4.7,0.1,90.6,53.9,28.9,2.8,13.1,80.6,5.4,22.1,St. Mary Parish
+22103,"St. Tammany Parish, Louisiana",40.4,79277,272200,2.0,0.5,5.1,0.2,92.1,73.3,12.0,2.0,36.6,91.4,4.8,12.2,St. Tammany Parish
+22105,"Tangipahoa Parish, Louisiana",35.7,57256,204600,2.2,0.2,2.8,0.3,94.4,60.9,29.6,0.9,22.2,83.9,5.3,19.4,Tangipahoa Parish
+22107,"Tensas Parish, Louisiana",47.4,36074,80300,2.4,0.0,0.4,0.0,97.2,41.4,53.3,0.5,13.1,80.9,13.3,32.8,Tensas Parish
+22109,"Terrebonne Parish, Louisiana",37.3,64819,189100,3.2,0.7,2.9,0.0,93.1,64.2,19.0,7.8,17.7,83.3,4.7,16.5,Terrebonne Parish
+22111,"Union Parish, Louisiana",43.5,45743,115400,3.4,0.1,2.0,0.1,94.4,69.1,23.6,0.9,16.0,86.4,5.8,28.6,Union Parish
+22113,"Vermilion Parish, Louisiana",39.4,57537,159700,1.6,0.0,2.4,0.2,95.8,76.8,13.0,0.7,16.8,84.1,5.2,19.2,Vermilion Parish
+22115,"Vernon Parish, Louisiana",32.1,58281,143500,4.9,2.1,2.0,0.2,90.8,70.1,13.0,2.3,19.1,87.6,6.2,18.3,Vernon Parish
+22117,"Washington Parish, Louisiana",41.0,42776,139400,0.9,1.0,1.3,0.0,96.8,63.6,29.7,1.1,12.7,84.1,10.8,24.2,Washington Parish
+22119,"Webster Parish, Louisiana",41.2,37396,105600,1.7,0.2,0.2,0.0,97.8,61.7,33.3,1.0,12.8,86.2,5.4,26.9,Webster Parish
+22121,"West Baton Rouge Parish, Louisiana",36.6,87320,225900,2.5,0.1,1.8,0.0,95.5,53.0,40.4,0.7,23.1,89.4,6.6,16.0,West Baton Rouge Parish
+22123,"West Carroll Parish, Louisiana",41.4,48514,97600,2.7,0.0,0.8,0.1,96.4,79.7,15.4,0.4,14.1,83.7,3.8,15.7,West Carroll Parish
+22125,"West Feliciana Parish, Louisiana",42.2,74277,263200,0.0,0.2,1.0,0.2,98.6,50.4,45.4,1.7,22.6,84.6,6.0,11.6,West Feliciana Parish
+22127,"Winn Parish, Louisiana",41.6,46368,102600,1.6,0.0,4.3,1.4,92.8,61.2,28.5,1.2,16.1,84.4,4.3,22.0,Winn Parish

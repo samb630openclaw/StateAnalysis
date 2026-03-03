@@ -106,6 +106,23 @@ This project analyzes the relationship between county-level demographic characte
 
 All analysis results, visualizations, and reports are saved in the `results/` directory.
 
+## Highway Attributes Analysis (Florida)
+
+### Key Findings: Highway Attributes vs Demographics
+
+**Strongest Correlations:**
+- **Military highways** vs HS Graduation Rate: r = +0.416 (p = 0.0007)
+- **Military highways** vs Bachelor's Degree Rate: r = +0.367 (p = 0.0020)
+- **Politics highways** vs HS Graduation Rate: r = +0.365 (p = 0.0023)
+- **Sports highways** vs HS Graduation Rate: r = +0.356 (p = 0.0029)
+- **Music highways** vs Asian Percentage: r = +0.330 (p = 0.0065)
+
+**Key Insights:**
+1. **Education is the key driver**: All attribute types show positive correlations with education levels
+2. **Asian population pattern**: Consistent positive correlation across all attribute types
+3. **Military highways show strongest demographic links**: Most correlated with education, income, and wealth
+4. **Sports highways and younger populations**: Negative correlation with median age
+
 ## Limitations
 
 - Sample size: Only 3 states analyzed (Florida, Texas, Michigan)
@@ -113,6 +130,7 @@ All analysis results, visualizations, and reports are saved in the `results/` di
 - Causality: Correlation does not imply causation
 - Highway definition: Memorial highways may vary in significance
 - Michigan highway data extracted from descriptions; some highways may span multiple counties
+- Highway attributes extracted from descriptions; some misclassifications may exist
 
 ## Project Structure
 

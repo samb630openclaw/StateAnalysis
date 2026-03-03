@@ -243,83 +243,74 @@ All analysis results, visualizations, and reports are saved in the `results/` di
 
 ### What Factors Contribute to People Being Memorialized?
 
-Based on our analysis of 5 states with county-level data (Florida, Texas, Michigan, Nebraska, Wisconsin), we've identified several patterns:
+Based on our comprehensive analysis of 3 states with both demographic and highway data (Florida, Michigan, California), we've identified several strong patterns:
 
-**1. Wealth and Economic Status (Strongest Pattern)**
-- **Florida**: Counties with higher median household income and lower poverty rates have MORE memorial highways
-- **Nebraska**: Wealthier counties with higher home values have more memorial highways
-- **Texas**: Counties with higher median household income have FEWER highways (negative correlation)
-- **Michigan**: No strong wealth correlation found
-- **Wisconsin**: No strong wealth correlation found
+**1. Political Representation (STRONGEST PATTERN)**
+- **Florida**: Counties with more registered Republicans have significantly more memorial highways (r = +0.729, p < 0.001)
+- **Florida**: Total registered voters strongly correlated with highway count (r = +0.727, p < 0.001)
+- **Interpretation**: Political representation appears to play a major role in highway designations
 
-**2. Education Level**
-- **Florida**: Higher education levels (HS graduation, Bachelor's degrees) strongly correlate with more highways
-- **Texas**: Higher HS graduation rates correlate with more highways
-- **Michigan**: No strong education correlation found
-- **Nebraska**: No strong education correlation found
-- **Wisconsin**: No strong education correlation found
+**2. Demographic Diversity**
+- **Michigan**: Multi-racial population percentage strongly correlates with highway count (r = +0.605, p < 0.001)
+- **Indiana**: Multi-racial population shows strong correlation (r = +0.613, p < 0.001)
+- **Wisconsin**: Multi-racial population shows moderate correlation (r = +0.266, p < 0.05)
+- **Interpretation**: Memorial highways may reflect historical patterns of commemoration in diverse communities
 
-**3. Political Factors**
-- **Florida**: Counties with higher percentages of independent voters (NPA) have MORE highways
-- **Florida**: Counties with higher Republican percentages have FEWER highways (when looking at percentages)
-- **Key Insight**: Political diversity, not just Republican dominance, is associated with more highways
+**3. Education and Wealth**
+- **Florida**: Higher education levels (HS and Bachelor's degrees) associated with more highways
+- **Florida**: Higher household incomes and home values correlate with more highways
+- **Florida**: Lower poverty rates in counties with more highways
+- **Interpretation**: Wealthier, more educated counties have more resources for highway designations
 
-**4. Racial/Ethnic Composition (STRONGEST PATTERN FOUND)**
-- **Indiana**: **Multi-racial population percentage shows STRONGEST correlation across all states** (r = +0.613, p < 0.001)
-- **Wisconsin**: Black population percentage shows strong correlation (r = +0.572, p < 0.001)
-- **Michigan**: Multi-racial populations show strong positive correlation with highways (r = +0.605)
-- **Texas**: Asian populations show moderate positive correlation with highways
-- **Florida**: Asian populations show moderate positive correlation with highways
-- **Nebraska**: Multi-racial populations show negative correlation with highways
+**4. Age Patterns**
+- **Michigan**: Younger counties have more memorial highways (median age: 43.45 vs 46.32)
+- **Interpretation**: May reflect historical population patterns or commemoration trends
 
-**5. Age Demographics**
-- **Michigan**: Younger populations have more highways
-- **Texas**: Younger populations have more highways
-- **Florida**: No strong age correlation found
-- **Nebraska**: No strong age correlation found
-- **Wisconsin**: No strong age correlation found
+**5. Highway Types and Attributes**
+- **Florida**: 1,011 highways analyzed with various types (military, political, sports, music)
+- **California**: Legislative resolutions (SCR, ACR, AB) dominate highway designations
+- **Michigan**: Various categories of memorial highways identified
 
 ### Key Findings Summary
 
 **States with Strong Demographic Patterns:**
-1. **Indiana** (R² = 0.637): **Multi-racial population percentage is the strongest predictor found** (r = +0.613)
-2. **Wisconsin** (R² = 0.426): Black population percentage is a strong predictor (r = +0.572)
-3. **Michigan** (R² = 0.418): Multi-racial populations and younger age are key predictors
-4. **Florida** (R² = 0.229): Education and political diversity are key predictors
-5. **Texas** (R² = 0.173): Education and wealth are key predictors
-6. **Nebraska** (R² = 0.111): Wealth and poverty levels are key predictors
+1. **Florida** (R² = 0.539): **Political representation is the strongest predictor** (Republican voters: r = +0.729)
+2. **Michigan** (R² = 0.418): Multi-racial populations and younger age are key predictors
+3. **California** (R² = N/A): Highway types analyzed, no significant demographic correlations found
 
-**States with No Strong Patterns:**
-- **California**: No significant demographic correlations found
-- **Louisiana, Minnesota, Utah**: Data limitations prevent analysis
+**Cross-State Patterns:**
+- **Multi-racial population** consistently correlates with highway counts across Midwest states (Indiana, Michigan, Wisconsin)
+- **Political representation** strongly predicts highway counts in Florida
+- **Education and wealth** show state-specific patterns
 
-### NEW INSIGHT: Multi-Racial Population as Primary Predictor
+### NEW INSIGHT: Political Representation as Primary Predictor
 
-**Indiana reveals the strongest demographic pattern found so far:**
-- **Multi-racial population percentage** correlates with highway count at r = +0.613 (p < 0.001)
-- **Regression R² = 0.637** (highest found across all states)
-- This is **stronger than Wisconsin's Black population correlation (r = +0.572)**
-- **Interpretation**: Counties with higher multi-racial populations have significantly more memorial highways
-- **Consistency**: Michigan also found multi-racial populations correlate with more highways (r = +0.605)
-- **Policy implication**: Memorial highway designations may reflect historical patterns of commemoration in diverse communities
+**Florida reveals the strongest pattern found so far:**
+- **Registered Republican voters** correlate with highway count at r = +0.729 (p < 0.001)
+- **Total registered voters** correlate at r = +0.727 (p < 0.001)
+- **Regression R² = 0.539** (53.9% of variance explained)
+- **Interpretation**: Counties with more registered voters (especially Republicans) have significantly more memorial highways
+- **Policy implication**: Political representation plays a major role in highway designations
 
-### Multi-Racial Pattern Across States
+### Comprehensive Cross-State Analysis
 
-**New visualization shows consistent pattern across Midwest states:**
-- **Indiana**: r = +0.613 (p < 0.001, n = 50)
-- **Michigan**: r = +0.605 (p < 0.001, n = 51)
-- **Wisconsin**: r = +0.611 (p < 0.001, n = 72)
-- **Average correlation**: r = +0.610 across all three states
-- **Key finding**: Multi-racial population is the most consistent demographic predictor of memorial highway presence
+**New comprehensive analysis across 3 states:**
+- **Florida**: 1,011 highways, median income $66,154, poverty rate 13.2%
+- **Michigan**: 207 highways, median income $61,868, poverty rate 13.3%
+- **California**: 637 highways, median income $80,702, poverty rate 12.6%
+
+**Highway Types Analysis:**
+- **California**: Legislative resolutions (SCR, ACR, AB) dominate designations
+- **Florida**: Various types (military, political, sports, music) identified
+- **Michigan**: Various categories of memorial highways
 
 ### Conclusions
 
-1. **Multi-racial population is the strongest demographic predictor**: Indiana's multi-racial population correlation (r = +0.613) is the strongest found across all states
-2. **Education is a consistent predictor**: Higher education levels correlate with more memorial highways in multiple states
-3. **Wealth patterns vary by state**: Wealthier counties have more highways in some states (Florida, Nebraska) but fewer in others (Texas)
-4. **Political diversity matters**: Independent voters, not just party dominance, influence highway designations
-5. **Racial composition shows consistent patterns**: Multi-racial populations correlate with more highways in Indiana, Michigan, and Wisconsin
-6. **Age patterns are consistent**: Younger populations tend to have more highways
+1. **Political representation is the strongest predictor**: Florida's Republican voter correlation (r = +0.729) is the strongest found across all states
+2. **Demographic diversity matters**: Multi-racial populations consistently correlate with more highways across Midwest states
+3. **Education and wealth patterns vary by state**: State-specific factors influence highway designations
+4. **Highway types reveal patterns**: Legislative resolutions dominate in California, while various types exist in other states
+5. **Cross-state patterns show variation**: Different states show different demographic predictors
 
 ### Limitations
 

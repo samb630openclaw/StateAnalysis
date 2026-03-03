@@ -106,6 +106,27 @@ This project analyzes the relationship between county-level demographic characte
 
 All analysis results, visualizations, and reports are saved in the `results/` directory.
 
+### Wisconsin Analysis (72 counties analyzed)
+
+**Key Findings:**
+- **Strongest Correlations with Highway Count:**
+  - **Percentage Black Alone**: r = +0.572 (p < 0.001) - Strong positive
+  - **Percentage White Alone**: r = +0.266 (p = 0.024) - Moderate positive
+
+- **Regression Model (R² = 0.426):**
+  - Model explains 42.6% of variance in highway counts
+  - **Strongest predictor**: Percentage Black Alone (p < 0.001)
+  - Each additional percentage point of Black population associated with 0.78 MORE highways
+
+- **Key Insight**: Counties with higher Black population percentages have significantly more memorial highways. This is the strongest demographic predictor found across all states analyzed.
+
+- **Top Counties by Highway Count:**
+  1. Milwaukee County: 4 highways
+  2. La Crosse County: 2 highways
+  3. Richland County: 2 highways
+  4. Manitowoc County: 2 highways
+  5. Sheboygan County: 1 highway
+
 ### Nebraska Analysis (93 counties analyzed)
 
 **Key Findings:**
@@ -196,26 +217,29 @@ All analysis results, visualizations, and reports are saved in the `results/` di
 
 ### What Factors Contribute to People Being Memorialized?
 
-Based on our analysis of 4 states with county-level data (Florida, Texas, Michigan, Nebraska), we've identified several patterns:
+Based on our analysis of 5 states with county-level data (Florida, Texas, Michigan, Nebraska, Wisconsin), we've identified several patterns:
 
 **1. Wealth and Economic Status (Strongest Pattern)**
 - **Florida**: Counties with higher median household income and lower poverty rates have MORE memorial highways
 - **Nebraska**: Wealthier counties with higher home values have more memorial highways
 - **Texas**: Counties with higher median household income have FEWER highways (negative correlation)
 - **Michigan**: No strong wealth correlation found
+- **Wisconsin**: No strong wealth correlation found
 
 **2. Education Level**
 - **Florida**: Higher education levels (HS graduation, Bachelor's degrees) strongly correlate with more highways
 - **Texas**: Higher HS graduation rates correlate with more highways
 - **Michigan**: No strong education correlation found
 - **Nebraska**: No strong education correlation found
+- **Wisconsin**: No strong education correlation found
 
 **3. Political Factors**
 - **Florida**: Counties with higher percentages of independent voters (NPA) have MORE highways
 - **Florida**: Counties with higher Republican percentages have FEWER highways (when looking at percentages)
 - **Key Insight**: Political diversity, not just Republican dominance, is associated with more highways
 
-**4. Racial/Ethnic Composition**
+**4. Racial/Ethnic Composition (NEW STRONGEST PATTERN)**
+- **Wisconsin**: **Black population percentage shows STRONGEST correlation across all states** (r = +0.572, p < 0.001)
 - **Michigan**: Multi-racial populations show strong positive correlation with highways
 - **Texas**: Asian populations show moderate positive correlation with highways
 - **Florida**: Asian populations show moderate positive correlation with highways
@@ -226,18 +250,28 @@ Based on our analysis of 4 states with county-level data (Florida, Texas, Michig
 - **Texas**: Younger populations have more highways
 - **Florida**: No strong age correlation found
 - **Nebraska**: No strong age correlation found
+- **Wisconsin**: No strong age correlation found
 
 ### Key Findings Summary
 
 **States with Strong Demographic Patterns:**
-1. **Florida** (R² = 0.229): Education and political diversity are key predictors
+1. **Wisconsin** (R² = 0.426): **Black population percentage is the strongest predictor found** (r = +0.572)
 2. **Michigan** (R² = 0.418): Multi-racial populations and younger age are key predictors
-3. **Texas** (R² = 0.173): Education and wealth are key predictors
-4. **Nebraska** (R² = 0.111): Wealth and poverty levels are key predictors
+3. **Florida** (R² = 0.229): Education and political diversity are key predictors
+4. **Texas** (R² = 0.173): Education and wealth are key predictors
+5. **Nebraska** (R² = 0.111): Wealth and poverty levels are key predictors
 
 **States with No Strong Patterns:**
 - **California**: No significant demographic correlations found
 - **Louisiana, Minnesota, Utah**: Data limitations prevent analysis
+
+### NEW INSIGHT: Racial Composition as Primary Predictor
+
+**Wisconsin reveals the strongest demographic pattern found so far:**
+- **Black population percentage** correlates with highway count at r = +0.572 (p < 0.001)
+- This is **stronger than any correlation found in Florida, Texas, Michigan, or Nebraska**
+- **Interpretation**: Counties with higher Black populations have significantly more memorial highways
+- **Policy implication**: Memorial highway designations may reflect historical patterns of commemoration in communities with specific demographic compositions
 
 ### Conclusions
 

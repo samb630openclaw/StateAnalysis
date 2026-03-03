@@ -1,0 +1,37 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:          highway_count   R-squared:                       0.173
+Model:                            OLS   Adj. R-squared:                  0.136
+Method:                 Least Squares   F-statistic:                     4.608
+Date:                Tue, 03 Mar 2026   Prob (F-statistic):           2.28e-06
+Time:                        12:27:52   Log-Likelihood:                -672.42
+No. Observations:                 254   AIC:                             1369.
+Df Residuals:                     242   BIC:                             1411.
+Df Model:                          11                                         
+Covariance Type:            nonrobust                                         
+===========================================================================================
+                              coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------
+const                       6.9136      5.489      1.259      0.209      -3.899      17.726
+Median_Age                 -0.0481      0.044     -1.105      0.270      -0.134       0.038
+Median_Household_Income -1.873e-08    6.8e-09     -2.755      0.006   -3.21e-08   -5.34e-09
+Median_Home_Value       -1.231e-09   3.25e-09     -0.379      0.705   -7.64e-09    5.18e-09
+Pct_White_Alone            -0.0015      0.019     -0.083      0.934      -0.038       0.035
+Pct_Black_Alone             0.5355      0.410      1.307      0.193      -0.272       1.343
+Pct_Asian_Alone             0.1964      0.103      1.901      0.058      -0.007       0.400
+Pct_Hispanic               -0.1943      0.163     -1.195      0.233      -0.515       0.126
+HS_Grad_or_Higher           0.1179      0.032      3.663      0.000       0.054       0.181
+Bachelors_or_Higher        -0.0784      0.058     -1.341      0.181      -0.194       0.037
+Unemployment_Rate           0.2124      0.102      2.086      0.038       0.012       0.413
+Pct_Below_Poverty_Level    -0.0244      0.045     -0.538      0.591      -0.114       0.065
+==============================================================================
+Omnibus:                      130.440   Durbin-Watson:                   1.809
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              536.917
+Skew:                           2.204   Prob(JB):                    2.57e-117
+Kurtosis:                       8.594   Cond. No.                     2.17e+09
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 2.17e+09. This might indicate that there are
+strong multicollinearity or other numerical problems.

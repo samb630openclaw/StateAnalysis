@@ -1,0 +1,31 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:          highway_count   R-squared:                       0.418
+Model:                            OLS   Adj. R-squared:                  0.380
+Method:                 Least Squares   F-statistic:                     11.05
+Date:                Tue, 03 Mar 2026   Prob (F-statistic):           4.84e-08
+Time:                        13:57:43   Log-Likelihood:                -160.85
+No. Observations:                  83   AIC:                             333.7
+Df Residuals:                      77   BIC:                             348.2
+Df Model:                           5                                         
+Covariance Type:            nonrobust                                         
+=======================================================================================
+                          coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------
+const                  -3.5354      5.847     -0.605      0.547     -15.179       8.108
+pct_twoormore           0.3027      0.103      2.941      0.004       0.098       0.508
+pct_someother_alone     0.0747      0.072      1.037      0.303      -0.069       0.218
+median_age             -0.0606      0.041     -1.478      0.144      -0.142       0.021
+unemployment_rate       0.0970      0.164      0.593      0.555      -0.229       0.423
+pct_hispanic           -0.0505      0.082     -0.614      0.541      -0.214       0.113
+==============================================================================
+Omnibus:                       20.460   Durbin-Watson:                   2.073
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               27.084
+Skew:                           1.133   Prob(JB):                     1.31e-06
+Kurtosis:                       4.643   Cond. No.                     2.99e+03
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 2.99e+03. This might indicate that there are
+strong multicollinearity or other numerical problems.

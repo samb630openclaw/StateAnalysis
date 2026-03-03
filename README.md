@@ -8,6 +8,30 @@ This project analyzes the relationship between county-level demographic characte
 
 ## Analysis Results
 
+### Michigan Analysis (83 counties analyzed)
+
+**Key Findings:**
+- **Strongest Correlations with Highway Count:**
+  - Pct_TwoOrMore (multi-racial): r = +0.605 (strong positive)
+  - Pct_SomeOther_Alone: r = -0.470 (moderate negative)
+  - Median_Age: r = -0.351 (moderate negative)
+
+- **Significant Demographic Differences:**
+  - High-highway counties are younger
+  - High-highway counties have more multi-racial residents
+  - High-highway counties have fewer residents identifying as "some other race"
+
+- **Regression Model (R² = 0.418):**
+  - Strongest predictor: Percentage of multi-racial residents
+  - Model explains 41.8% of variance in highway counts
+
+- **Top Counties by Highway Count:**
+  1. Genesee County: 9 highways
+  2. Macomb County: 9 highways
+  3. Wayne County: 8 highways
+  4. Jackson County: 8 highways
+  5. Monroe County: 7 highways
+
 ### Florida Analysis (64 counties analyzed)
 
 **Key Findings:**
@@ -76,10 +100,11 @@ All analysis results, visualizations, and reports are saved in the `results/` di
 
 ## Limitations
 
-- Sample size: Only 2 states analyzed
+- Sample size: Only 3 states analyzed (Florida, Texas, Michigan)
 - Data quality: Some missing values in demographic data
 - Causality: Correlation does not imply causation
 - Highway definition: Memorial highways may vary in significance
+- Michigan highway data extracted from descriptions; some highways may span multiple counties
 
 ## Project Structure
 

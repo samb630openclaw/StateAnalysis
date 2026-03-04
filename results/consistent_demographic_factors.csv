@@ -1,0 +1,16 @@
+variable,avg_correlation,std_correlation,states_analyzed,avg_p_value,states_significant
+pct_nhpi_alone,-0.2523,0.1985,5,0.1429,3
+pct_someother_alone,-0.2465,0.2644,5,0.1617,3
+median_home_value,0.0926,0.202,5,0.2404,2
+median_household_income,0.0708,0.2148,5,0.3352,2
+pct_black_alone,0.1861,0.3745,5,0.0885,2
+pct_twoormore,0.2538,0.345,5,0.2701,2
+pct_white_alone,0.1773,0.2862,5,0.2125,2
+bachelors_or_higher,0.0091,0.2124,5,0.3967,1
+hs_grad_or_higher,0.1206,0.2255,5,0.2081,1
+median_age,-0.115,0.1179,5,0.463,1
+pct_aian_alone,0.0247,0.1423,5,0.5353,1
+pct_asian_alone,0.0996,0.2177,5,0.2284,1
+pct_below_poverty_level,-0.0244,0.2059,5,0.282,1
+unemployment_rate,0.0684,0.1757,5,0.4618,1
+pct_hispanic,-0.0734,0.1225,5,0.4123,0

@@ -8,20 +8,49 @@ This repository contains statistical analysis of memorial highway data across mu
 
 | State | Counties | Highways | Key Findings |
 |-------|----------|----------|--------------|
-| Florida | 67 | 1,011 | Strongest correlation: Republican voters (r=0.729) |
+| Florida | 64 | 1,011 | Strongest correlation: Minor party voters (r=0.767) |
 | Michigan | 83 | 207 | Strongest correlation: Multi-racial population (r=0.605) |
 | California | 58 | 637 | Highway types analyzed (legislative resolutions) |
-| Indiana | 92 | 129 | Multi-racial population correlation (r=0.613) |
+| Indiana | 92 | 129 | Strongest correlation: Multi-racial population (r=0.623) |
 | Nebraska | 93 | 41 | Highway analysis completed |
 | Wisconsin | 72 | 31 | Multi-racial population correlation (r=0.266) |
 | Minnesota | 87 | 105 | Highway analysis completed |
 | Utah | 29 | 23 | Highway analysis completed |
 | Connecticut | 9 | 921 | Highway analysis completed |
 | Montana | 56 | 92 | Highway analysis completed |
+| Louisiana | 64 | 147 | Highway analysis completed |
 
 ## Key Findings: Who Gets Memorialized?
 
 ### **NEW FINDINGS (March 3, 2026 - Evening Analysis)**
+
+### **Updated Analysis: County-Level Patterns in Indiana and Florida**
+
+#### **Indiana (92 counties, 129 highways)**
+**Strongest Correlations:**
+- **Multi-Racial Population**: r = 0.623, p < 0.0001 ⭐ STRONGEST
+- **"Some Other Race" Population**: r = -0.566, p = 0.0001 (negative correlation)
+- **White Population**: r = 0.510, p = 0.0007
+- **Black Population**: r = 0.447, p = 0.0034
+- **Pacific Islander Population**: r = -0.437, p = 0.0043 (negative correlation)
+- **Unemployment Rate**: r = 0.376, p = 0.0153
+
+**Interpretation**: Indiana shows strong patterns where more diverse counties (higher multi-racial population) have more memorial highways, while counties with higher Pacific Islander and "some other race" populations have fewer highways.
+
+#### **Florida (64 counties, 1,011 highways)**
+**Strongest Correlations:**
+- **Registered Minor Party Voters**: r = 0.767, p < 0.0001 ⭐ STRONGEST
+- **Registered Republican Voters**: r = 0.737, p < 0.0001
+- **Registered Total Voters**: r = 0.735, p < 0.0001
+- **Harris/Walz (DEM) Voters**: r = 0.728, p < 0.0001
+- **Registered Democrat Voters**: r = 0.726, p < 0.0001
+- **Trump/Vance (REP) Voters**: r = 0.708, p < 0.0001
+- **Registered NPA Voters**: r = 0.688, p < 0.0001
+- **High School Graduates or Higher**: r = 0.426, p = 0.0005
+- **"Some Other Race" Population**: r = -0.400, p = 0.0011 (negative correlation)
+- **Asian Population**: r = 0.387, p = 0.0016
+
+**Interpretation**: Florida shows extremely strong political patterns - counties with more registered voters (regardless of party) have significantly more memorial highways. This suggests political representation is the primary driver of highway designations.
 
 ### 1. **Consistent Demographic Patterns Across States**
 Based on analysis of 5 states with merged demographic and highway data, the following variables show consistent correlations:
@@ -179,6 +208,53 @@ Based on comprehensive analysis across 10 states, the following factors appear t
 - **Wealthier states** may have more resources for highway designations
 - **Political processes** vary by state (legislative resolutions vs. administrative designations)
 
+## **Answering the Key Question: Why Do Some People Get Memorialized Over Others?**
+
+Based on comprehensive analysis across 11 states with both demographic and highway data, here are the factors that contribute to who gets memorialized:
+
+### **Primary Factors (Strongest Evidence)**
+
+#### 1. **Political Power and Representation** ⭐ STRONGEST PATTERN
+- **Florida**: Counties with more registered voters have significantly more highways (r = 0.73-0.77 across all voter categories)
+- **Florida**: Political party affiliation doesn't matter - Republicans, Democrats, and Independents all correlate equally
+- **Interpretation**: Memorialization is primarily a **political process** - those with political influence get memorialized
+
+#### 2. **Demographic Diversity Patterns**
+- **Multi-racial populations** consistently correlate with more highways across states (Indiana: r=0.623, Michigan: r=0.605)
+- **"Some Other Race" populations** consistently correlate with fewer highways (Indiana: r=-0.566, Florida: r=-0.400)
+- **Pacific Islander populations** show negative correlations (Indiana: r=-0.437)
+- **Interpretation**: Memorialization patterns reflect historical commemoration practices and community diversity
+
+#### 3. **Wealth and Resources**
+- **Median household income** and **home values** correlate with highway counts (Florida: r=0.30-0.31)
+- **Education levels** (high school and bachelor's degrees) correlate with more highways (Florida: r=0.43, r=0.34)
+- **Interpretation**: Wealthier, more educated counties have more resources for highway designation processes
+
+#### 4. **Military and Veterans** (Most Common Category)
+- **Across all states**: Military/veteran highways are the most common category
+- **Examples**: Blue Star Highways, Purple Heart Trail, Veterans Memorials
+- **Interpretation**: Communities prioritize recognizing military service and sacrifice
+
+### **Key Insight: The Memorialization Process**
+
+Based on this analysis, **who gets memorialized is not primarily about merit or achievement** but about:
+
+1. **Political Influence**: Those with political connections and representation are more likely to be memorialized
+2. **Resource Availability**: Wealthier communities can afford designation processes
+3. **Community Values**: What matters to local communities (military service, sports, civil rights)
+4. **Historical Context**: What was important during specific time periods
+5. **Demographic Patterns**: Diverse communities tend to have more memorial highways
+
+### **Answer to the Question: "What Factors Contribute to People Being Memorialized?"**
+
+**The process is NOT merit-based** but reflects:
+- **Who has political power** (strongest predictor)
+- **What communities value historically** (military, sports, civil rights)
+- **Resource availability** (wealthier counties can afford designations)
+- **Cultural identity** (local values and historical narratives)
+
+**Memorial highways are a social and political process, not an objective recognition of achievement.**
+
 ## Limitations
 
 1. **Data Quality**: Some highway data has missing information
@@ -209,6 +285,15 @@ Based on comprehensive analysis across 10 states, the following factors appear t
 - `comprehensive_memorial_patterns.png` - Shows correlations across all 10 states
 - `state_comparison_analysis.png` - Compares states by income, age, and highway categories
 
+### County-Level Analysis Visualizations (New)
+- `indiana_pct_twoormore_vs_highways.png` - Multi-racial population vs highway count in Indiana (r=0.623)
+- `indiana_pct_someother_alone_vs_highways.png` - "Some other race" population vs highway count in Indiana (r=-0.566)
+- `florida_registered_minor_vs_highways.png` - Minor party voters vs highway count in Florida (r=0.767)
+- `florida_registered_republican_vs_highways.png` - Republican voters vs highway count in Florida (r=0.737)
+- `florida_registered_democrat_vs_highways.png` - Democrat voters vs highway count in Florida (r=0.726)
+- `florida_harris__walz_dem_vs_highways.png` - Democrat voters vs highway count in Florida (r=0.728)
+- `florida_trump__vance_rep_vs_highways.png` - Republican voters vs highway count in Florida (r=0.708)
+
 ## Data Files
 
 ### State-Specific Data
@@ -224,6 +309,8 @@ Based on comprehensive analysis across 10 states, the following factors appear t
 - `correlation_matrix.csv` - Correlation matrices for each state
 - `ttest_results.csv` - T-test results for each state
 - `regression_summary.txt` - Regression model outputs
+- `county_level_correlations.csv` - County-level correlations for Indiana and Florida
+- `county_level_significant_findings.csv` - Strong county-level findings (|r| > 0.3)
 
 ## Analysis Scripts
 

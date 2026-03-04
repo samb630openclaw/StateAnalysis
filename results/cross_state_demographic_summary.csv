@@ -1,0 +1,4 @@
+state,n_counties,n_highways,median_income,poverty_rate,college_educated,median_age,pct_white,pct_black,pct_hispanic,pct_asian,republican_pct,democrat_pct
+florida,67,1011,66154.0,13.2,89.1,42.9,2.5,2.2,,3.7,43898.0,22616.0
+michigan,83,207,61868.0,13.3,92.1,43.9,2.1,0.3,,0.6,,
+california,58,637,80701.5,12.6,88.4,39.5,22.75,0.5,,3.8,,

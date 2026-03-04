@@ -1,0 +1,15 @@
+state,demographic_files,highway_files,has_both
+california,['california_counties_demographics.csv'],"['blue_star_memorial_highways.csv', 'california_memorial_highways.csv', 'freehighway_and_other.csv', 'non_person_highways.py', 'non_person_named_highways.txt']",True
+florida,['florida_counties_demographics_with_voterreg.csv'],"['florida_highway_attributes_analysis.py', 'highways.csv']",True
+michigan,['michigan_counties_demographics.csv'],"['michigan_cleaned_highway_names.txt', 'michigan_memorial_highways.csv', 'michigan_highway_analysis.py']",True
+indiana,['indiana_counties_demographics.csv'],['indiana_memorial_highways.xlsx'],True
+nebraska,['nebraska_counties_demographics.csv'],"['nebraska-named-highways(1).csv', 'nebraska_highway_analysis.py']",True
+texas,"['matched_counties.py', 'texas_counties_demographics.csv', 'texas_data_with_counties.csv']",[],False
+wisconsin,['wisconsin_counties_demographics.csv'],"['scrape_wisconsin_highways.py', 'wisconsin_commemorative_highways.csv', 'wisconsin_commemorative_highways_output.csv', 'wisconsin_highway_analysis.py']",True
+minnesota,['minnesota_counties_demographics.csv'],['minnesota_memorial_highways.csv'],True
+utah,['utah_counties_demographics.csv'],['utah_memorial_highways.csv'],True
+connecticut,['connecticut_counties_demographics.csv'],['connecticut_memorial_highways.csv'],True
+hawaii,[],[],False
+montana,['montana_counties_demographics.csv'],['montana_memorial_highways.csv'],True
+north_carolina,['north_carolina_counties_demographics.csv'],[],False
+oklahoma,['oklahoma_counties_demographics.csv'],[],False
